@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+}
+
+.navbar {
+  width: 100%;
+  background: #1b9f9d;
+  overflow: hidden;
+}
+
+#pages a {
+  float: left;
+  text-decoration: none;
+  line-height: 25px;
+  padding: 15px;
+  height: 25px;
+  font-size: 20px;
+  color: white;
+  font-family: Karla;
+  font-weight: 400;
+}
+
+#pages {
+  padding-left: 15px;
+  float: left;
+}
+
+#media i {
+  float: right;
+  text-decoration: none;
+  line-height: 25px;
+  padding: 15px;
+  height: 25px;
+  font-size: 20px;
+  color: white;
+}
+
+#media {
+  padding-right: 15px;
+  float: right;
+}
+
+#gr {
+  float: right;
+  color: white;
+  text-decoration: none;
+  line-height: 25px;
+  height: 25px;
+  padding: 12px 15px 15px 15px;
+  font-family: helvetica;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: bold;
+}
