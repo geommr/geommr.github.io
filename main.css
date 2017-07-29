@@ -7,20 +7,19 @@ body {
   height: 100%;
 }
 
-.bg {
-  background-image: url("bg.jpg");
-  background-repeat: no-repeat;
+.bg-box {
+  position:absolute;
+  top:    0px;
+  right:  0px;
+  bottom: 0px;
+  left:   0px;
+  background: url('bg.jpg') no-repeat center center fixed;
   background-size: cover;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
-  -webkit-filter: blur(5px);
-     -moz-filter: blur(5px);
-      -ms-filter: blur(5px);
-       -o-filter: blur(5px);
-          filter: blur(5px);
+  -webkit-filter: blur(7px);
+      -ms-filter: blur(7px);
+       -o-filter: blur(7px);
+          filter: blur(7px);
   -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
-     -moz-animation: fadein 3s; /* Firefox < 16 */
       -ms-animation: fadein 3s; /* Internet Explorer */
        -o-animation: fadein 3s; /* Opera < 12.1 */
           animation: fadein 3s;
@@ -46,12 +45,39 @@ body {
     to   { opacity: 1; }
 }
 
+#pic {
+  display: block;
+  position: absolute;
+  max-width: 14%;
+  height: auto;
+  left:  0;
+  right: 0;
+  top: 15%;
+  margin: 35px auto;
+  border: 2px white solid;
+  border-radius: 50%;
+  z-index: 1;
+  box-shadow: 0 0 10px rgba(50,50,50,0.7);
+  -webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 12.1 */
+     -moz-animation: fadein 1s; /* Firefox < 16 */
+      -ms-animation: fadein 1s; /* Internet Explorer */
+       -o-animation: fadein 1s; /* Opera < 12.1 */
+          animation: fadein 1s;
+}
+
 .navbar {
+  top:  0;
+  left: 0;
   width: 100%;
   background: #1b9f9d;
   overflow: hidden;
   position: fixed;
   z-index: 3;
+  margin-bottom: 10px;
+}
+
+#media i:hover, #pages a:hover, #gr:hover, #logo:hover {
+  opacity: 0.7;
 }
 
 #pages a {
