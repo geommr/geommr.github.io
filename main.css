@@ -29,11 +29,6 @@ body {
     from { opacity: 0; }
     to   { opacity: 1; }
 }
-/* Firefox < 16 */
-@-moz-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
-}
 /* Safari, Chrome and Opera > 12.1 */
 @-webkit-keyframes fadein {
     from { opacity: 0; }
@@ -48,7 +43,7 @@ body {
 #pic {
   display: block;
   position: absolute;
-  max-width: 14%;
+  max-width: 180px;
   height: auto;
   left:  0;
   right: 0;
@@ -66,6 +61,7 @@ body {
 }
 
 .navbar {
+  opacity: 0.9;
   top:  0;
   left: 0;
   width: 100%;
@@ -77,7 +73,7 @@ body {
 }
 
 #media i:hover, #pages a:hover, #gr:hover, #logo:hover {
-  opacity: 0.7;
+  opacity: 0.6;
 }
 
 #pages a {
@@ -127,4 +123,13 @@ body {
 
 #logo {
   height: 25px;
+}
+
+@media only screen and (max-width: 540px) {
+    #pic {
+      width: 130px;
+    }
+    #media {
+      display: none;
+    }
 }
