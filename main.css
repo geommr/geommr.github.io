@@ -5,6 +5,29 @@ html {
 body {
   margin: 0;
   height: 100%;
+  font-family: Karla;
+  overflow: hidden;
+}
+
+h1 {
+  font-weight: 400;
+  color: #343341;
+  font-size: 36px;
+}
+
+h2 {
+  font-weight: 400;
+  color: #343341;
+  font-size: 24px;
+}
+
+.intro {
+  display: block;
+  z-index: 1;
+  position: fixed;
+  text-align: center;
+  margin: 5% auto;
+  top: 300px; left: 0; right: 0;
 }
 
 .bg-box {
@@ -13,6 +36,7 @@ body {
   right:  0px;
   bottom: 0px;
   left:   0px;
+  z-index: -1;
   background: url('bg.jpg') no-repeat center center fixed;
   background-size: cover;
   -webkit-filter: blur(7px);
@@ -84,7 +108,6 @@ body {
   height: 25px;
   font-size: 20px;
   color: white;
-  font-family: Karla;
   font-weight: 400;
 }
 
@@ -131,5 +154,9 @@ body {
     }
     #media {
       display: none;
+    }
+    #intro {
+      top: 50px;
+      position: relative;
     }
 }
