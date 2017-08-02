@@ -25,8 +25,29 @@ body {
   .id-pic { width: 140px; height: 140px; }
   .intro { margin-top: 10%; }
   .media { display: none; }
-  .pages {
-    margin: 0 auto;
+  .btmedia { margin: 0 auto; width: 252px;}
+  .btnav {
+    left: 0; right: 0; bottom: 0;
+    position: fixed;
+    height: 40px;
+    background-color: rgba(70,196,192,0.5);
+    padding-left: 1%;
+    padding-right: 1%;
+    font-weight: 400;
+  }
+  .btmedia i {
+    padding: 10px 15px 15px 15px;
+    font-size: 20px;
+    color: white;
+  }
+  #btgr {
+    color: white;
+    float: right;
+    padding: 5px 15px 15px 15px;
+    font-family: helvetica;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: bold; 
   }
 }
 
@@ -35,12 +56,14 @@ body {
   .navbar { margin-bottom: 8%; }
   .id-pic { width: 160px; height: 160px; }
   .intro { margin-top: 5%; }
+  .btnav { display: none; }
 }
 
 @media only screen and (min-width: 960px) { /* For desktop */
   .navbar { margin-bottom: 6%; }
   .id-pic { width: 180px; height: 180px; }
   .intro { margin-top: 5%; }
+  .btnav { display: none; }
 }
 
 .navbar {
@@ -54,7 +77,6 @@ body {
 
 .pages a {
   float: left;
-  text-decoration: none;
   padding: 16px 15px 15px 15px;
   font-size: 20px;
   color: white;
@@ -86,7 +108,7 @@ body {
   padding-top: 10px;
 }
 
-.media i:hover, .pages a:hover, #gr:hover, #logo:hover {
+.media i:hover, .btmedia i:hover, .pages a:hover, #gr:hover, #btgr:hover, #logo:hover {
   opacity: 0.6;
 }
 
@@ -106,6 +128,12 @@ body {
 
 .intro {
   text-align: center;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+a {
+  text-decoration: none;
 }
 
 h1 {
