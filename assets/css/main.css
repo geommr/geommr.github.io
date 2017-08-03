@@ -25,6 +25,7 @@ body {
   .id-pic { width: 140px; height: 140px; }
   .intro { margin-top: 10%; }
   .media { display: none; }
+  .pages { width: 256px; margin: 0 auto; }
   .btmedia { margin: 0 auto; width: 252px;}
   .btnav {
     left: 0; right: 0; bottom: 0;
@@ -161,4 +162,32 @@ h2 {
 @-ms-keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
+}
+
+/* Portfolio page */
+
+#port {
+  background-image: none;
+  background-color: #f6f6f6;
+}
+
+.uc {
+  text-align: center;
+  width: 50%;
+  margin-top: 20%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.uc h1, h2 {
+  color: #757575;
+}
+
+#port .btnav { background-color: transparent; }
+
+#port #btgr { color: #1b9f9d; }
+
+#port .btmedia i {
+  font-size: 20px;
+  color: #1b9f9d;
 }
