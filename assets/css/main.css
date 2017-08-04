@@ -31,7 +31,7 @@ body {
     left: 0; right: 0; bottom: 0;
     position: fixed;
     height: 40px;
-    background-color: rgba(70,196,192,0.5);
+    background-color: rgba(243,243,243,0.7);
     padding-left: 1%;
     padding-right: 1%;
     font-weight: 400;
@@ -39,10 +39,10 @@ body {
   .btmedia i {
     padding: 10px 15px 15px 15px;
     font-size: 20px;
-    color: white;
+    color: #1b9f9d;
   }
   #btgr {
-    color: white;
+    color: #1b9f9d;
     float: right;
     padding: 5px 15px 15px 15px;
     font-family: helvetica;
@@ -179,7 +179,7 @@ h2 {
   margin-left: auto;
 }
 
-.uc h1, h2 {
+.uc h1, .uc h2 {
   color: #757575;
 }
 
