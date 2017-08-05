@@ -109,6 +109,10 @@ body {
   padding-top: 10px;
 }
 
+.media i:active, .btmedia i:active, .pages a:active, #gr:active, #btgr:active, #logo:active {
+  background-color: transparent;
+}
+
 .media i:hover, .btmedia i:hover, .pages a:hover, #gr:hover, #btgr:hover, #logo:hover {
   opacity: 0.6;
 }
