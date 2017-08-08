@@ -45,6 +45,7 @@
     <div class="row intro">
       <h1>Hello! I'm George Mamar.</h1>
       <h2>I'm a frontend web developer based in Germany.</h2>
+      <a id="mailBtn" href="mailto: Double click!" target="_top">Get in touch</a>
     </div>
 
     <div class="btnav">
@@ -62,6 +63,12 @@
       </div>
     </div>
 
+    <script>
+      document.getElementById("mailBtn").onclick = function() {
+        var username = "george.mamar", domain = "@hotmail.com";
+        document.getElementById("mailBtn").href = "mailto:" + username + domain;
+      };
+    </script>
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

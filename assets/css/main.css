@@ -21,6 +21,7 @@ body {
 }
 
 @media only screen and (max-width: 520px) { /* For phones */
+  h2 { margin-bottom: 40px; }
   .navbar { margin-bottom: 10%; }
   .id-pic { width: 140px; height: 140px; }
   .intro { margin-top: 10%; }
@@ -117,6 +118,10 @@ body {
   opacity: 0.6;
 }
 
+#mailBtn:hover {
+  background-color: #1b9f9d;
+}
+
 .id-pic {
   margin: 0 auto;
   background-image: url("../images/id.jpg");
@@ -151,6 +156,16 @@ h2 {
   font-size: 24px;
   font-weight: 400;
   color: #343341;
+  margin-bottom: 50px;
+}
+
+#mailBtn {
+  padding: 11px;
+  padding-bottom: 12px;
+  text-decoration: none;
+  color: white;
+  background-color: rgba(27,159,157,0.8);
+  border-radius: 25px;
 }
 
 @keyframes fadein {
