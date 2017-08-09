@@ -3,6 +3,7 @@ html {
 }
 
 body {
+  height: 100%;
   margin: 0;
   background-image: url("../images/bg-s.jpg");
   background-size: cover;
@@ -21,13 +22,13 @@ body {
 }
 
 @media only screen and (max-width: 520px) { /* For phones */
-  h2 { margin-bottom: 40px; }
+  h2 { margin-bottom: 32px; }
   .navbar { margin-bottom: 10%; }
   .id-pic { width: 140px; height: 140px; }
-  .intro { margin-top: 10%; }
+  .intro { margin-top: 10%; margin-bottom: 10%; }
   .media { display: none; }
   .pages { width: 256px; margin: 0 auto; }
-  .btmedia { margin: 0 auto; width: 252px;}
+  .btmedia { margin: 0 auto; width: 252px; }
   .btnav {
     left: 0; right: 0; bottom: 0;
     position: fixed;
@@ -54,6 +55,7 @@ body {
 }
 
 @media only screen and (min-width: 521px) { /* For tablets */
+  h2 { margin-bottom: 50px; }
   body { background-image: url("../images/bg.jpg") }
   .navbar { margin-bottom: 8%; }
   .id-pic { width: 160px; height: 160px; }
@@ -62,6 +64,7 @@ body {
 }
 
 @media only screen and (min-width: 960px) { /* For desktop */
+  h2 { margin-bottom: 50px; }
   .navbar { margin-bottom: 6%; }
   .id-pic { width: 180px; height: 180px; }
   .intro { margin-top: 5%; }
@@ -156,7 +159,6 @@ h2 {
   font-size: 24px;
   font-weight: 400;
   color: #343341;
-  margin-bottom: 50px;
 }
 
 #mailBtn {
@@ -184,7 +186,6 @@ h2 {
 }
 
 /* Portfolio page */
-
 #port {
   background-image: none;
   background-color: #f6f6f6;
