@@ -1,6 +1,4 @@
-html {
-  height: 100%; width: 100%;
-}
+html { height: 100%; width: 100%; }
 
 body {
   height: 100%;
@@ -113,20 +111,11 @@ body {
   font-weight: bold;
 }
 
-#logo {
-  height: 34px;
-}
-#logo-a {
-  padding-bottom: 0;
-  padding-top: 10px;
-}
+#logo { height: 34px; }
+#logo-a { padding-bottom: 0; padding-top: 10px; }
 
-.media i:hover, .btmedia i:hover, .pages a:hover, #gr:hover, #btgr:hover, #logo:hover {
-  opacity: 0.6;
-}
-#mailBtn:hover {
-  background-color: #1b9f9d;
-}
+.media i:hover, .btmedia i:hover, .pages a:hover, #gr:hover, #btgr:hover, #logo:hover { opacity: 0.6; }
+#mailBtn:hover { background-color: #1b9f9d; }
 
 .id-pic {
   margin: 0 auto;
@@ -148,9 +137,7 @@ body {
   padding-right: 3%;
 }
 
-a {
-  text-decoration: none;
-}
+a { text-decoration: none; }
 
 h1 {
   font-size: 36px;
@@ -201,12 +188,7 @@ h2 {
   margin-right: auto;
   margin-left: auto;
 }
-.uc h1, .uc h2 {
-  color: #757575;
-}
+.uc h1, .uc h2 { color: #757575; }
 #port .btnav { background-color: transparent; }
 #port #btgr { color: #1b9f9d; }
-#port .btmedia i {
-  font-size: 20px;
-  color: #1b9f9d;
-}
+#port .btmedia i { font-size: 20px; color: #1b9f9d; }
