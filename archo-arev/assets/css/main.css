@@ -20,17 +20,19 @@
 .fa {
   color: white;
 }
-
 .fa-size-1 {
   font-size: 1rem;
 }
-
 .fa-size-2 {
   font-size: 2rem;
 }
-
 .fa-size-3 {
   font-size: 3rem;
+}
+
+.py-6 {
+  padding-top: 6rem !important;
+  padding-bottom: 2rem !important;
 }
 
 .shade {
@@ -39,4 +41,8 @@
 
 .nav-link {
   font-size: 1.1rem;
+}
+
+.bg-darken {
+  background-color: rgba(68,68,68,0.6) !important;
 }

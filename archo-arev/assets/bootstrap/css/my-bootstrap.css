@@ -3635,7 +3635,8 @@ tbody.collapse.show {
 .navbar-dark .navbar-nav .nav-link.show,
 .navbar-dark .navbar-nav .nav-link.active {
   color: white;
-  text-shadow: 0 1px 2px #333;
+  text-decoration: underline;
+  text-shadow: 0 2px 2px #333;
 }
 
 .navbar-dark .navbar-toggler {
