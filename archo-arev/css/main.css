@@ -1,0 +1,42 @@
+.carousel-item {
+  height: 80vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.leaf {
+	width: 26px;
+	height: 26px;
+}
+
+.hidden {
+	display: none;
+}
+
+.fa {
+  color: white;
+}
+
+.fa-size-1 {
+  font-size: 1rem;
+}
+
+.fa-size-2 {
+  font-size: 2rem;
+}
+
+.fa-size-3 {
+  font-size: 3rem;
+}
+
+.shade {
+  text-shadow: 1px 1px 1px #222;
+}
+
+.nav-link {
+  font-size: 1.1rem;
+}
