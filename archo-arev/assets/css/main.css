@@ -1,3 +1,9 @@
+footer {
+  bottom: 0;
+  position: relative;
+  width: 100%;
+}
+
 .carousel-item {
   height: 80vh;
   min-height: 300px;
@@ -17,9 +23,6 @@
 	display: none;
 }
 
-.fa {
-  color: white;
-}
 .fa-size-1 {
   font-size: 1rem;
 }
@@ -46,3 +49,19 @@
 .bg-darken {
   background-color: rgba(68,68,68,0.7) !important;
 }
+
+.container-info {
+  display: inline-block;
+  padding: 2em 3.5rem 1rem 3.5rem;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.container-about {
+  display: table-cell;
+  padding: 2em 3rem 1rem 3rem;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.space { margin-right: 5px; }
