@@ -46,6 +46,7 @@ body {
   padding-right: 1%;
   font-weight: 400;
   margin-bottom: 10px;
+  box-shadow: 0 0 10px rgba(50,50,50,0.7);
 }
 
 .pages a {
@@ -239,7 +240,7 @@ a:-webkit-any-link.project { color: #666; }
   padding-top: 3px;
   font-size: 24px;
 }
-.fcc .fa { font-size: 54px; }
+.fcc .fab { font-size: 54px; }
 .card.fcc {
   background: url(../images/fcc.jpg) no-repeat center;
   background-size: cover;
@@ -275,7 +276,7 @@ p.about {
   .intro { margin-top: 10%; margin-bottom: 6%; }
   .media { display: none; }
   .pages { width: 264px; margin: 0 auto; }
-  .btmedia { margin: 0 auto; width: 252px; }
+  .btmedia { margin: 0 auto; width: 256px; }
   .btnav {
     left: 0; right: 0; bottom: 0;
     position: fixed;
@@ -293,7 +294,7 @@ p.about {
   .container { margin-top: 60px; }
   .about-container { margin-top: 60px; }
   .heading { font-size: 44px; }
-  .fa { font-size: 50px; }
+  .fab { font-size: 50px; }
   .heading.cu { padding-top: 1.5em; }
 }
 
