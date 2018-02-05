@@ -62,20 +62,10 @@ body {
   color: white;
 }
 
-#gr {
-  float: right;
-  color: white;
-  padding: 9px 15px 15px 15px;
-  font-family: helvetica;
-  font-size: 22px;
-  font-style: normal;
-  font-weight: bold;
-}
-
 #logo { height: 42px; }
 #logo-a { padding-bottom: 0; padding-top: 5px; }
 
-.media i:hover, .btmedia i:hover, .pages a:hover, #gr:hover, #btgr:hover, #logo:hover { opacity: 0.6; }
+.media i:hover, .btmedia i:hover, .pages a:hover, #logo:hover { opacity: 0.6; }
 #mailBtn:hover { background-color: #1b9f9d; }
 
 .id-pic {
@@ -156,7 +146,6 @@ h2 {
 h3 { -webkit-margin-before: 0; }
 a:-webkit-any-link.project { color: #666; }
 
-.port #btgr { color: #1b9f9d; }
 .port .btmedia i { font-size: 20px; color: #1b9f9d; }
 
 .wrapper { 
@@ -246,17 +235,6 @@ a:-webkit-any-link.project { color: #666; }
   background-size: cover;
 }
 
-.heading.aa {
-  font-family: Arimo, sans-serif;;
-  font-weight: 700;
-  padding-top: 1.5em;
-}
-.maple { height: 40px; }
-.card.aa {
-  background: url(../images/aa.jpg) no-repeat center;
-  background-size: cover;
-}
-
 .heading.fcc {
   padding-top: 3px;
   font-size: 24px;
@@ -312,21 +290,11 @@ p.about {
     font-size: 20px;
     color: #1b9f9d;
   }
-  #btgr {
-    color: #1b9f9d;
-    float: right;
-    padding: 5px 15px 15px 15px;
-    font-family: helvetica;
-    font-size: 22px;
-    font-style: normal;
-    font-weight: bold; 
-  }
   .container { margin-top: 60px; }
   .about-container { margin-top: 60px; }
   .heading { font-size: 44px; }
   .fa { font-size: 50px; }
   .heading.cu { padding-top: 1.5em; }
-  .heading.aa { padding-top: 1.4em; }
 }
 
 /* ====== for tablets ====== */
