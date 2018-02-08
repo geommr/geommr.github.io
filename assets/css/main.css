@@ -21,7 +21,7 @@ body {
 
 /* ====== for desktop ====== */
 @media screen and (min-width: 960px) { 
-  .id-pic { width: 180px; height: 180px; }
+  .id-pic { width: 190px; height: 190px; }
   .intro { margin-top: 10%; }
   .btnav { display: none; }
 }
@@ -219,35 +219,21 @@ a:-webkit-any-link.project { color: #666; }
   padding: 0 5px;
 }
 
-.heading {
-  padding-top: 1em;
-  margin: 0 auto;
-  font-size: 52px;
-  word-spacing: -6px;
-  color: #eee;
-}
-
 /* ====== projects ====== */
-.heading.cu { 
-  font-family: Pacifico, sans-serif;
-}
 .card.cu {
   background: url(../images/cu.jpg) no-repeat center;
   background-size: cover;
 }
 
-.heading.fcc {
-  padding-top: 3px;
-  font-size: 24px;
-}
-.fcc .fab { font-size: 54px; }
 .card.fcc {
   background: url(../images/fcc.jpg) no-repeat center;
   background-size: cover;
-  padding-top: 64px;
 }
 
-.card.soon { padding-top: 24px; }
+.card.soon {
+  background: url(../images/soon.jpg) no-repeat center;
+  background-size: cover;
+}
 
 /* =================== about page =================== */
 .about-container { margin-top: 120px; }
@@ -293,9 +279,7 @@ p.about {
   }
   .container { margin-top: 60px; }
   .about-container { margin-top: 60px; }
-  .heading { font-size: 44px; }
   .fab { font-size: 50px; }
-  .heading.cu { padding-top: 1.5em; }
 }
 
 /* ====== for tablets ====== */
