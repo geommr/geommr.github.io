@@ -219,6 +219,10 @@ a:-webkit-any-link.project { color: #666; }
   padding: 0 5px;
 }
 
+.ml .devicon {
+  color: #274C5E;
+}
+
 /* ====== projects ====== */
 .card.cu {
   background: url(../images/cu.jpg) no-repeat center;
@@ -230,6 +234,10 @@ a:-webkit-any-link.project { color: #666; }
   background-size: cover;
 }
 
+.card.ml {
+  background: url(../images/mel.png) no-repeat center;
+  background-size: cover;
+}
 .card.soon {
   background: url(../images/soon.jpg) no-repeat center;
   background-size: cover;
