@@ -238,6 +238,12 @@ a:-webkit-any-link.project { color: #666; }
   background: url(../images/mel.png) no-repeat center;
   background-size: cover;
 }
+
+.card.cc {
+  background: url(../images/cc.jpg) no-repeat center;
+  background-size: cover;
+}
+
 .card.soon {
   background: url(../images/soon.jpg) no-repeat center;
   background-size: cover;
