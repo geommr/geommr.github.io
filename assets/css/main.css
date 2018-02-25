@@ -190,7 +190,34 @@ a:-webkit-any-link.project { color: #666; }
   opacity: 0.75;
 }
 
+.card:active {
+  height: 300px;
+  -webkit-filter: grayscale(90%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(90%);
+}
+
 .card-info {
+  display: none; 
+  color: white;
+  font-size: 1.1m;
+  width: 100%;
+  position: absolute;
+  bottom: 44px;
+  left: 0;
+  z-index: 1;
+  margin: 0 auto;
+  padding: 0 5px 10px 5px;
+}
+
+.ml .card-info {
+  color: #274C5E;
+}
+
+.card:active .card-info {
+  display: block;
+}
+
+.card-stack {
   display: none;
   height: 50px;
   width: 100%;
@@ -204,7 +231,7 @@ a:-webkit-any-link.project { color: #666; }
   transition: transform 1s ease-in-out;
 }
 
-.card:hover .card-info {
+.card:hover .card-stack {
   display: block;
   opacity: 0.9;
     -webkit-animation: fadein-card 1s; /* Safari, Chrome and Opera > 12.1 */
@@ -224,7 +251,7 @@ a:-webkit-any-link.project { color: #666; }
 }
 
 /* ====== projects ====== */
-.card.cu {
+.card.oc {
   background: url(../images/cu.jpg) no-repeat center;
   background-size: cover;
 }
