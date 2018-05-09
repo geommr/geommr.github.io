@@ -1,0 +1,85 @@
+/* ====== for tablets ====== */
+@media screen and (min-width: 631px) { 
+  .main-card { width: 80%; height: 560px;}
+  .social { padding: 15px 10px 0 10px; font-size: 26px; }
+  .card-page { font-size: 24px; }
+  h1 { font-size: 42px; }
+  h2 { font-size: 30px; }
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: 400;
+  color: #343341;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 400;
+  color: #343341;
+  margin-bottom: 30px;
+}
+
+a { text-decoration: none; }
+
+.card-page {
+  font-size: 20px;
+  color: white;
+  padding: 0 10px;
+}
+
+
+#logo { height: 42px;}
+#logo-a { padding-bottom: 0; padding-top: 0px; margin-bottom: 0px;}
+
+.id-pic {
+  margin: 0 auto;
+  background-image: url("../images/id.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  border: 2px white solid;
+  box-shadow: 0 0 10px rgba(50,50,50,0.7);
+}
+
+.tab {
+	margin-bottom: 14px;
+}
+
+.intro {
+  text-align: center;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+.social {
+  text-align: center;
+  padding: 15px 12px 0 12px;
+  font-size: 20px;
+  color: white;
+}
+
+.main-card {
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 5%;
+  height: 540px;
+  width: 420px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 4px;
+  box-shadow: 0 2px 10px rgba(3,3,3,0.6);
+  transition: 0.3s;
+  background-color: rgba(27,159,157,0.75);
+  -webkit-animation: fadein-card 1s; /* Safari, Chrome and Opera > 12.1 */
+      -ms-animation: fadein-card 1s; /* Internet Explorer */
+       -o-animation: fadein-card 1s; /* Opera < 12.1 */
+          animation: fadein-card 1s;
+}
+
+/* ====== for phones ====== */
+@media screen and (max-width: 630px) {
+	.main-card { width: 90%; height: 540px;}
+	.social { padding: 15px 5px 0 10px; }
+
+}

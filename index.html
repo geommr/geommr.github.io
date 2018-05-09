@@ -12,65 +12,38 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.6/css/all.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karla:400,700">
     <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/home.css">
   </head>
   
   <body>
-    <!-- navigation -->
-    <div class="box">
-    <div class="row">
-      <div class="navbar">
-        <div class="pages">
-          <a href="/" title="Home" id="logo-a"><img src="assets/images/favicon.png" id="logo"></a>
-          <a href="portfolio">Portfolio</a>
-          <a href="about">About</a>
-        </div>
-        <div class="media">
-          <a target="_blank" href="https://goodreads.com/user/show/16120194-george" 
-          title="Goodreads"><i class="fab fa-goodreads-g"></i></a>
-          <a target="_blank" href="https://linkedin.com/in/georgemamar/" 
-          title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-          <a target="_blank" href="https://twitter.com/georgemamar" 
-          title="Twitter"><i class="fab fa-twitter"></i></a>
-          <a target="_blank" href="https://github.com/georgem3" 
-          title="Github"><i class="fab fa-github"></i></a>
+    <div class="main-card">
+      <a href="/" title="Home" id="logo-a"><img src="assets/images/favicon.png" id="logo"></a>
+      <div class="tab">
+        <a href="portfolio" class="card-page">Portfolio</a>
+        <a href="about" class="card-page">About</a>
+      </div>
+      <div class="row">
+        <div class="id-pic"></div>
+      </div>
+
+      <div class="row intro">
+        <h1>Hello! I'm George Mamar.</h1>
+        <h2>I'm a full-stack* web developer based in Germany.</h2>
+          <a href="mailto:georgemamar(at)hotmail.com" 
+          title="Email"><i class="far fa-envelope social"></i></a>
           <a target="_blank" href="https://medium.com/@georgemamar" 
-          title="Medium"><i class="fab fa-medium"></i></a>
-        </div>
+          title="Medium"><i class="fab fa-medium social"></i></a>
+          <a target="_blank" href="https://github.com/georgem3" 
+          title="Github"><i class="fab fa-github social"></i></a>
+          <a target="_blank" href="https://twitter.com/georgemamar" 
+          title="Twitter"><i class="fab fa-twitter social"></i></a>
+          <a target="_blank" href="https://linkedin.com/in/georgemamar/" 
+          title="LinkedIn"><i class="fab fa-linkedin-in social"></i></a>
+          <a target="_blank" href="https://goodreads.com/user/show/16120194-george" 
+          title="Goodreads"><i class="fab fa-goodreads-g social"></i></a>
       </div>  
     </div>
 
-    <div class="row">
-      <div class="id-pic"></div>
-    </div>
-
-    <div class="row intro">
-      <h1>Hello! I'm George Mamar.</h1>
-      <h2>I'm a full-stack* web developer based in Germany.</h2>
-      <a id="mailBtn" href="mailto: Double click!" target="_top">Get in touch</a>
-    </div>
-
-    <div class="btnav">
-      <div class="btmedia">
-        <a target="_blank" href="https://medium.com/@georgemamar" 
-        title="Medium"><i class="fab fa-medium"></i></a>
-        <a target="_blank" href="https://github.com/georgem3" 
-        title="Github"><i class="fab fa-github"></i></a>
-        <a target="_blank" href="https://twitter.com/georgemamar" 
-        title="Twitter"><i class="fab fa-twitter"></i></a>
-        <a target="_blank" href="https://linkedin.com/in/georgemamar/" 
-        title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-        <a target="_blank" href="https://goodreads.com/user/show/16120194-george" 
-        title="Goodreads"><i class="fab fa-goodreads-g"></i></a>
-      </div>
-    </div>
-    </div>
-
-    <script>
-      document.getElementById("mailBtn").onclick = function() {
-        var username = "george.mamar", domain = "@hotmail.com";
-        document.getElementById("mailBtn").href = "mailto:" + username + domain;
-      };
-    </script>
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
