@@ -244,6 +244,7 @@ a:-webkit-any-link.project { color: #666; }
 .about-card {
   height: auto;
   color: #333;
+  font-size: 17px;
   width: 420px;
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
@@ -264,10 +265,9 @@ a:-webkit-any-link.project { color: #666; }
   opacity: 0.9;
 }
 
-#hey {
-  font-size: 28px;
+p.about span {
+  font-size: 40px;
   font-weight: 700;
-  padding-right: 5px;
   font-style: italic;
   color: #444;
 }
