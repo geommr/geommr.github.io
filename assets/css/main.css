@@ -189,7 +189,6 @@ a:-webkit-any-link.project { color: #666; }
   z-index: 1;
   margin: 0 auto;
   opacity: 0.9;
-  padding-top: 10px;
   transition: transform 1s ease-in-out;
 }
 
@@ -206,6 +205,7 @@ a:-webkit-any-link.project { color: #666; }
   color: white;
   font-size: 2em;
   padding: 0 5px;
+  margin-top: 8px;
 }
 
 .ml .devicon {
@@ -236,6 +236,31 @@ a:-webkit-any-link.project { color: #666; }
 .card.soon {
   background: url(../images/soon.jpg) no-repeat center;
   background-size: cover;
+}
+
+.card.pr {
+  background: #373B44;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.pr-name {
+  color: #eee;
+  padding-top: 1em;
+  font-size: 3em;
+  font-family: 'Segoe UI';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  letter-spacing: 2px;
+}
+
+span.mapbox {
+  background: url(../images/mapbox.png) no-repeat center;
+  background-size: cover;
+  width: 50px;
+  padding: 4px 18px;
+  margin: 0 auto;
+  filter: brightness(0) invert(1);
 }
 
 /* =================== about page =================== */
