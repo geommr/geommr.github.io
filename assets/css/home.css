@@ -20,6 +20,10 @@ h2 {
   margin-bottom: 30px;
 }
 
+sup {
+  font-size: 0.95rem;
+}
+
 a { text-decoration: none; }
 
 .card-page {
