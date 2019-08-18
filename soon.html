@@ -8,10 +8,21 @@
     <title>Polyrun</title>
     <style>
         body {
-            background-color: #b239ad;
-            background-image: url('cover.png') !important;
-            background-size: cover;
+            background-image: linear-gradient(to bottom right, #b4373e, #b23acb);
+            margin: 0;
+            padding-top: 100px;
+            height: 100vh;
+            overflow: hidden;
+        }
+        div {
+            background-image: url('default-monochrome-white.svg') !important;
+            background-size: contain;
             background-repeat: no-repeat;
+            max-width: 80vw;
+            height: 50vh;
+            margin: 0 auto;
+            text-align: center;
+            background-position: center;
         }
         .mc-layout__modalContent { border-top: none !important; }
         .mc-banner { top: unset !important; bottom: 0 !important; }
@@ -19,6 +30,7 @@
     </style>
 </head>
 <body>
+    <div></div>
 <script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">window.dojoRequire(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us3.list-manage.com","uuid":"fa80fc19bc64b16a6b6bbfcec","lid":"fb0e228419","uniqueMethods":true}) })</script>
 </body>
 </html>
