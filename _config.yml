@@ -1,0 +1,47 @@
+# Site
+title:              George Mamer
+bio:                'George Mamer'
+description:        "Hi! I'm George Mamer, a full-stack web developer."
+reading_time:       true
+words_per_minute:   180
+logo:               '/assets/img/me.jpg'
+bg2:                '/assets/img/bg2.png'
+tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
+locale:             en_US
+url:                "https://mamer.dev"
+
+# Jekyll
+permalink:          /:title/
+markdown:           kramdown
+highlighter:        rouge
+kramdown:
+  auto_ids:         true
+  footnote_nr:      1
+  entity_output:    as_char
+  toc_levels:       1..6
+  enable_coderay:   false
+mathjax:            true
+sass:
+  sass_dir:         _sass
+  style:            compressed
+
+# Social
+email:              george@mamer.dev
+twitter:            georgemamer
+github-url:         georgem3
+linkedin:           georgemamer
+instagram:          georgemamer
+medium:            '@georgemamer'
+
+# Gems
+gems:
+  - jekyll-mentions
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-gist
+
+jekyll-mentions:
+    base_url: https://github.com
+
+# Exclude list
+exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor, CNAME, LICENSE, Rakefile]
