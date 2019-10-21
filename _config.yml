@@ -9,6 +9,7 @@ bg2:                '/assets/img/bg2.png'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
 url:                "https://mamer.dev"
+future:             false
 
 # Jekyll
 permalink:          /:title/
