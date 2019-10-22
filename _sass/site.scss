@@ -120,6 +120,16 @@ body {
 	    box-shadow: none;
 	}
 }
+@supports ((-webkit-backdrop-filter: blur(28px)) or (backdrop-filter: blur(28px))) {
+	.wrapper, .container {
+		-webkit-backdrop-filter: blur(28px);
+		backdrop-filter: blur(28px);
+		background: none;
+		&::before {
+			display: none;
+		}
+	}
+}
 // entry meta
 .entry-meta {
 	@include font-rem(12);

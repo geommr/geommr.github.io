@@ -107,7 +107,7 @@
   transition : $transition; 
 }
 
-@mixin glass($width: 100%, $blur: 25px) {
+@mixin glass($width: 100%, $blur: 28px) {
   position: absolute;
   background: inherit;
   width: $width;
