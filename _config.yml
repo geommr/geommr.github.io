@@ -5,8 +5,7 @@ description:        "Hi! I'm George Mamer, a full-stack web developer."
 reading_time:       true
 words_per_minute:   180
 logo:               '/assets/img/me.jpg'
-bg2:                '/assets/img/bg2.png'
-tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
+bg2:                '/assets/img/bg2.jpg'
 locale:             en_US
 url:                "https://mamer.dev"
 future:             false
