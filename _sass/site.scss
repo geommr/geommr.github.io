@@ -122,12 +122,20 @@ body {
 }
 @supports ((-webkit-backdrop-filter: blur(28px)) or (backdrop-filter: blur(28px))) {
 	.wrapper, .container {
+		color: $color_bon_jour;
 		-webkit-backdrop-filter: blur(28px);
 		backdrop-filter: blur(28px);
 		background: none;
 		&::before {
 			display: none;
 		}
+	}
+	p code,
+	li code,
+	p pre,
+	li pre {
+		background-color: $color_fuscous_gray;
+		border: 1px solid $color_tundora;
 	}
 }
 // entry meta
