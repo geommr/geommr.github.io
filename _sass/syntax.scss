@@ -3,7 +3,7 @@ pre.highlight {
 }
 
 .highlight {
-	background-color: #49483e;
+	background-color: #2b2b28d4;
 	font-family: $font2;
 	@include font-size(14);
 	color: #f8f8f2;
@@ -17,10 +17,10 @@ pre.highlight {
 	.hll               { background-color: #49483e}
 	.c                 { color: #75715e }                            /* Comment                     */
 	.err               { color: #960050; background-color: #1e0010 } /* Error                       */
-	.k                 { color: #66d9ef }                            /* Keyword                     */
+	.k                 { color: #e877e6 }                            /* Keyword                     */
 	.l                 { color: #ae81ff }                            /* Literal                     */
 	.n                 { color: #f8f8f2 }                            /* Name                        */
-	.o                 { color: #f92672 }                            /* Operator                    */
+	.o                 { color: #e6db74 }                            /* Operator                    */
 	.p                 { color: #f8f8f2 }                            /* Punctuation                 */
 	.cm                { color: #75715e }                            /* Comment.Multiline           */
 	.cp                { color: #75715e }                            /* Comment.Preproc             */
@@ -29,7 +29,7 @@ pre.highlight {
 	.ge                { font-style: italic }                        /* Generic.Emph                */
 	.gs                { font-weight: bold }                         /* Generic.Strong              */
 	.kc                { color: #66d9ef }                            /* Keyword.Constant            */
-	.kd                { color: #66d9ef }                            /* Keyword.Declaration         */
+	.kd                { color: #e877e6 }                            /* Keyword.Declaration         */
 	.kn                { color: #f92672 }                            /* Keyword.Namespace           */
 	.kp                { color: #66d9ef }                            /* Keyword.Pseudo              */
 	.kr                { color: #66d9ef }                            /* Keyword.Reserved            */
@@ -47,7 +47,7 @@ pre.highlight {
 	.nf                { color: #a6e22e }                            /* Name.Function               */
 	.nl                { color: #f8f8f2 }                            /* Name.Label                  */
 	.nn                { color: #f8f8f2 }                            /* Name.Namespace              */
-	.nx                { color: #a6e22e }                            /* Name.Other                  */
+	.nx                { color: #66d9ef }                            /* Name.Other                  */
 	.py                { color: #f8f8f2 }                            /* Name.Property               */
 	.nt                { color: #f92672 }                            /* Name.Tag                    */
 	.nv                { color: #f8f8f2 }                            /* Name.Variable               */
