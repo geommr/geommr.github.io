@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "TIL: Subscribe to ActivatedRoute Params"
+title:  "TIL: Subscribe to ActivatedRoute Params for current parameter"
 date:   2019-10-30
-excerpt: "To always get the current parameter. "
+excerpt: ""
 category: til
 categoryText: Today I Learned
 tag:

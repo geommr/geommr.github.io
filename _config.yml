@@ -1,13 +1,13 @@
 # Site
-title:              George Mamer
-bio:                'George Mamer'
-description:        "Hi! I'm George Mamer, a full-stack web developer."
+title:              George Mamar
+bio:                'George Mamar'
+description:        "Hi! I'm George Mamar, a full-stack web developer."
 reading_time:       true
 words_per_minute:   180
 logo:               '/assets/img/me.jpg'
 bg2:                '/assets/img/bg2.jpg'
 locale:             en_US
-url:                "https://mamer.dev"
+url:                "https://mamar.dev"
 future:             false
 
 # Jekyll
@@ -26,12 +26,12 @@ sass:
   style:            compressed
 
 # Social
-email:              george@mamer.dev
-twitter:            georgemamer
+email:              george@mamar.dev
+twitter:            georgemamar
 github-url:         georgem3
-linkedin:           georgemamer
-instagram:          georgemamer
-medium:            '@georgemamer'
+linkedin:           georgemamar
+instagram:          georgemamar
+medium:            '@georgemamar'
 
 # Gems
 gems:
