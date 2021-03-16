@@ -1,5 +1,138 @@
----
-layout: home
-title: Home
-comments: false
----
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="canonical" href="https://mamar.dev/">
+    <meta name="twitter:image" content="https://pbs.twimg.com/profile_images/1259556963995856898/6pggMV8R_400x400.jpg">
+    <meta name="twitter:title" content="George Mamar">
+    <meta name="twitter:site" content="@georgemamar">
+    <meta name="twitter:creator" content="@georgemamar">
+    <link rel="icon" type="image/png"  href="favicon.png">
+    <title>George Mamar</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;700&display=swap">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        html,
+        body {
+            font-family: 'Manrope', sans-serif;
+            width: 100%;
+            height: 100%;
+            padding: 0;
+            margin: 0;
+        }
+
+        #container {
+            display: flex;
+            width: 100%;
+            height: 100%;
+            background-color: #192031;
+            justify-content: center;
+            align-items: center
+        }
+
+        .profile {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            margin: 24px;
+        }
+
+        .profile img {
+            width: 90px;
+            height: 90px;
+            border-radius: 45px;
+            display: inline-block;
+        }
+
+        .profile span {
+            margin-left: 16px;
+        }
+
+        h1,
+        h2 {
+            color: #7d9cb9;
+            display: block;
+        }
+
+        h1 {
+            font-size: 24px;
+            padding: 0;
+            color: white;
+        }
+
+        h2 {
+            font-size: 16px;
+            font-weight: normal;
+            margin-top: 8px;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .box {
+            background-color: #1c3d5c;
+            background: linear-gradient(#26537d, #1c3d5c);
+            border-radius: 14px;
+        }
+
+        .btn-wrapper {
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+        }
+
+        .btn-wrapper a {
+            display: flex;
+            flex: 1;
+            justify-content: center;
+            align-items: center;
+            padding: 24px;
+            color: white;
+            border: none;
+            transition: background-color 360ms, border-color 360ms, color 360ms;
+        }
+
+        .btn-wrapper a:hover {
+            background-color: #1c3d5c;
+            color: white;
+        }
+
+        .btn-wrapper a:first-child {
+            border-bottom-left-radius: 14px;
+        }
+
+        .btn-wrapper a:last-child {
+            border-bottom-right-radius: 14px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <div class="box">
+            <div class="profile">
+                <img src="https://pbs.twimg.com/profile_images/1259556963995856898/6pggMV8R_400x400.jpg">
+                <span>
+                    <h1>George Mamar</h1>
+                    <h2>Software Engineer | Obsidia</h2>
+                </span>
+            </div>
+            <div class="btn-wrapper">
+                <a title="Email" href="mailto:george@mamar.dev"><i class="fa fa-envelope fa-lg"></i></a>
+                <a title="GitHub" href="https://github.com/georgem3" target="_blank"><i class="fab fa-github fa-lg"></i></a>
+                <a title="Twitter" href="https://twitter.com/GeorgeMamar" target="_blank"><i class="fab fa-twitter fa-lg"></i> </a>
+                <a title="LinkedIn" href="https://www.linkedin.com/in/GeorgeMamar/" target="_blank"><i class="fab fa-linkedin-in fa-lg"></i> </a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
